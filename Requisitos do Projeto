@@ -1,0 +1,27 @@
+# Requisitos do Projeto
+
+O projeto requer a utilização das seguintes bibliotecas e configurações para garantir o correto funcionamento do ambiente:
+
+## Bibliotecas Python
+- pandas (pd): Biblioteca para manipulação e análise de dados tabulares.
+- numpy (np): Biblioteca para operações numéricas eficientes.
+- os: Biblioteca para interagir com o sistema operacional.
+- sys: Biblioteca para acessar funcionalidades específicas do Python.
+- pickle: Biblioteca para serialização de objetos Python.
+- sklearn.model_selection.train_test_split: Módulo para dividir o conjunto de dados em treino e teste.
+- sklearn.linear_model.LinearRegression: Módulo para construção de modelos de regressão linear.
+- sklearn.metrics.mean_absolute_error: Métrica para calcular o erro absoluto médio do modelo.
+- sklearn.metrics.mean_squared_error: Métrica para calcular o erro quadrático médio do modelo.
+- sklearn.metrics.r2_score: Métrica para calcular o coeficiente de determinação (R²) do modelo.
+- sklearn.preprocessing.StandardScaler: Módulo para escalonamento de variáveis numéricas.
+- sklearn.preprocessing.OneHotEncoder: Módulo para codificação de variáveis categóricas.
+- sklearn.compose.ColumnTransformer: Módulo para aplicar diferentes transformações em diferentes colunas.
+
+## Bibliotecas de Visualização
+- seaborn (sns): Biblioteca para visualização estatística de dados.
+- matplotlib.pyplot (plt): Biblioteca para criação de gráficos.
+
+## Configuração Adicional
+- google.colab.drive.mount: Módulo para montar o Google Drive no ambiente Colab, permitindo o acesso a arquivos armazenados no Drive.
+
+Certifique-se de instalar ou ter acesso a todas essas bibliotecas e configurações antes de executar o código.
