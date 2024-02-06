@@ -1,0 +1,64 @@
+# Projeto de Análise e Modelagem de Regressão Linear
+
+## Autor
+Eduardo Rodolfi Beppler
+
+## Descrição
+Este projeto visa realizar uma análise exploratória de dados e construir um modelo de regressão linear para prever o preço do aluguel de anúncios em uma plataforma imobiliária. A análise inclui a utilização de bibliotecas como Pandas, NumPy, Scikit-Learn, Seaborn e Matplotlib para manipulação de dados, modelagem e visualização.
+
+## Configuração do Ambiente
+Certifique-se de ter as seguintes bibliotecas e configurações instaladas em seu ambiente Python:
+
+- pandas (pd)
+- numpy (np)
+- sklearn
+- seaborn (sns)
+- matplotlib.pyplot (plt)
+- google.colab.drive.mount (para ambiente Colab)
+
+## Estrutura do Projeto
+1. **Notebooks**: Contém os notebooks Jupyter utilizados para análise de dados e construção do modelo.
+   - `LH_CD_EDUARDO_RODOLFI_BEPPLER.pkl`: Notebook para a análise exploratória dos dados.
+   - `LH_CD_EDUARDO_RODOLFI_BEPPLER.pkl`: Notebook para a construção e avaliação do modelo de regressão linear.
+
+2. **Dados**: local onde o CSV necessário está presente.
+
+2. **Requisitos**: Lista as bibliotecas e configurações necessárias para executar o projeto.
+
+## Instruções de Execução
+Para este em desafio questão utilizei o ambiente GoogleColab, segue abaixo como executar o mesmo.
+
+Monte o Drive:
+
+# Carregando Dados de um Arquivo CSV em Outro Drive
+
+Se você estiver usando um ambiente diferente do Google Colab e deseja carregar um arquivo CSV de outro drive, siga as instruções abaixo:
+
+1. **Monte o Drive (se necessário):**
+   - Em alguns ambientes, como Jupyter Notebook local, você pode precisar montar o seu Google Drive manualmente.
+   - No Google Colab, essa etapa não é necessária, pois já possui integração direta.
+
+2. **Especifique o Caminho Completo:**
+   - Forneça o caminho completo até o arquivo CSV no seu drive. Se o arquivo estiver em uma pasta, inclua o caminho até essa pasta.
+   - Lembre-se de usar barras invertidas ou barras normais, dependendo do sistema operacional que você está usando.
+
+   Exemplo para um ambiente local:
+
+   ```python
+   # Importe a biblioteca pandas
+   import pandas as pd
+
+   # Especifique o caminho completo até o arquivo CSV no seu drive
+   caminho_arquivo = "C:/Caminho/Para/Seu/Arquivo/teste_indicium_precificacao.csv"
+
+   # Carregue os dados do arquivo CSV
+   dados = pd.read_csv(caminho_arquivo)
+
+**Agradecimento**
+
+Agradeço por conferir este projeto! Caso tenha dúvidas, sugestões ou feedback, ficarei feliz em ouvir.
+
+Obrigado pela visita!
+
+Eduardo Rodolfi Beppler
+
